@@ -1,2 +1,8 @@
 [project]
 name = aya
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = ftps://$LEKTOR_USER:$LEKTOR_PASSWORD@ftp.helloaya.de
