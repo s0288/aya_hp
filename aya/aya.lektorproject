@@ -5,4 +5,4 @@ name = aya
 name = Production
 enabled = yes
 default = yes
-target = ftps://$LEKTOR_USER:$LEKTOR_PASSWORD@ftp.helloaya.de
+target = ftp://ftp.helloaya.de
