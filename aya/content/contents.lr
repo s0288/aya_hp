@@ -1,4 +1,8 @@
+_model: page
+---
 title: Einfach fasten
+---
+_template: page.html
 ---
 body:
 

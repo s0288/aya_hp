@@ -1,15 +1,38 @@
 <!doctype html>
+<html lang="en">
+
+
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — aya</title>
 <body>
-  <header>
-    <h1>aya</h1>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
+  <main role="main" class="container">
+
+     <!-- HEADER -->
+     <header class="site-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col pt-1">
+          <a class="site-header-name" href="/">
+            <h1 class="site-header-name">aya</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    <div class="col">
+
+      {% block body %}{% endblock %}
+
   </div>
-  <footer>
-    &copy; Copyright 2020 by s0288.
-  </footer>
+    <footer>
+      &copy; Copyright 2020 by s0288.
+    </footer>
+  </main>
+
+
+
 </body>
+
+</html>
